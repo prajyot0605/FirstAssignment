@@ -1,0 +1,34 @@
+Question 1: A Variable is assigned with whom?
+A) Data Type  B) Conditional Type  C) Character Type
+
+Question 2: How many types of variables are there?
+A) 3   $) 4   C) 2
+
+Question 3: Output of the following :-
+ public class Assignment {
+    public static void main(String args[]) {
+        int a = 10;
+        {
+            int b = 10;
+            System.out.println(a + b);
+        }
+    }
+}
+A) 20  B) 10  C) Complie Time Error
+
+Question 4: What is the correct way to deaclare a variable in java?
+A) int invariable;  B) float myFlaot 4.20f;  C) Sting myString;
+
+Question 5: A variable declared inside the body of the method?
+A) Local Variable  B) Instance variable  C) Static Variable
+
+
+
+
+The Answers are:
+Question 1 : Option A
+Question 2 : Option A
+Question 3 : Option A
+Question 4 : Option B
+Question 5 : Option A
+
