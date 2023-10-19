@@ -1,0 +1,24 @@
+Some MCQS on if-else statement
+
+1. An if-esle statement is also called
+A. Boolean  B. Control Statements  C. Both 
+
+2. Java styles if-else statments is also called as 
+A. C  B. C++  C. Both
+
+3. Every if Statement is followed by else or else if statement
+a. True  B. False  C. None of them
+
+
+4. An if statement code must be defined in two braces
+A. False  B. True  C. None of them
+
+5. What is the output of the following.
+if(true)
+{
+    break;
+    System.out.println("Elephant");
+}
+A. It gives the output Elephant
+B. Compile Time error
+C. None of them
