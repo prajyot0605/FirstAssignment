@@ -1,0 +1,72 @@
+1. What is the time complexity of Binary Search?
+
+int binarySearch(int arr[], int x) {
+    // Implementation of binary search
+}
+
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n^2)
+
+2. Which of the following is true about Linear Search?
+
+int linearSearch(int arr[], int x) {
+    // Implementation of linear search
+}
+
+A. It works only for sorted arrays
+B. It has a time complexity of O(log n)
+C. It works by dividing the array into two halves
+D. It has a time complexity of O(n)
+
+3.  In Binary Search, what is the role of the array being sorted?
+
+A. It is not necessary for binary search
+B. It ensures that the middle element is the largest
+C. It allows for the use of recursion
+D. It ensures that the search space can be divided efficiently
+
+4. What is the time complexity of the Quicksort algorithm in the average case?
+
+void quickSort(int arr[], int low, int high) {
+    // Implementation of quicksort
+}
+
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n log n)
+
+5. Which of the following sorting algorithms is known for its stability?
+
+void stableSort(int arr[]) {
+    // Implementation of a stable sorting algorithm
+}
+
+A. QuickSort
+B. MergeSort
+C. BubbleSort
+D. InsertionSort
+
+6. What is the main idea behind the MergeSort algorithm?
+
+void mergeSort(int arr[], int l, int r) {
+    // Implementation of mergesort
+}
+
+A. Divide the array into two halves and sort each half separately
+B. Select the smallest element and move it to the front
+C. Swap adjacent elements until the array is sorted
+D. Use a pivot to partition the array into smaller and larger elements
+
+
+
+Answers:
+
+1.B
+2.D
+3.D
+4.D
+5.D
+6.A
