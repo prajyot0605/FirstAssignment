@@ -1,0 +1,79 @@
+1.  What is the time complexity of the following Java code snippet?
+
+for (int i = 0; i < n; i++) {
+    System.out.println("Hello, World!");
+}
+
+A. O(1)
+B. O(n)
+C. O(log n)
+D. O(n^2)
+
+2. What is the output of the following Java code?
+
+int sum = 0;
+for (int i = 1; i <= n; i *= 2) {
+    sum += i;
+}
+System.out.println(sum);
+
+A. The sum of the first n natural numbers
+B. The sum of the powers of 2 up to n
+C. The product of the first n natural numbers
+D. The factorial of n
+
+3. What is the space complexity of the following recursive Java function?
+
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+A. O(1)
+B. O(n)
+C. O(log n)
+D. O(n^2)
+
+4. Which sorting algorithm is implemented in the following Java code?
+
+void bubbleSort(int arr[]) {
+    int n = arr.length;
+    for (int i = 0; i < n-1; i++)
+        for (int j = 0; j < n-i-1; j++)
+            if (arr[j] > arr[j+1]) {
+                // swap arr[j+1] and arr[j]
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+}
+
+A. QuickSort
+B. MergeSort
+C. InsertionSort
+D. BubbleSort
+
+5. What is the time complexity of the following Java code?
+
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+A. O(1)
+B. O(n)
+C. O(2^n)
+D. O(log n)
+
+
+Answers:
+
+B
+B
+C
+D
+C
